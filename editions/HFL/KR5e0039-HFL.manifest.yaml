@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5e0039/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5e0039/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清太玄鑑誡論
+  date: '2015-08-29 02:07:15.641981'
+  source:
+    repository: kanripo
+    path: KR5e0039
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5e0039_000-HFL.yaml, hash: 'sha256:e7086747353a7047f882d83b89a874edb9229ed96be8fccdb3c07b7e9fbb4a20'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5e0039_000-HFL.markers.yaml, hash: 'sha256:fbc8a1ca3018ed562a30e4398fbbc7758fc5723290c4c6510047a4c387d9353f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5e0039_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 3240
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:eeb11fd509d9fcee238775e0d08607e183ede26e791e302fd26e4b5cf1f8ac62
